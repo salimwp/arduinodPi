@@ -1,0 +1,5 @@
+* Need to change architecture to move the initialization of the Arduino device 
+  out of the network.c to the main.c file. This will allow for more than 1 
+  connection.
+* Add an option to allow UDP publish/subscribe for Arduino events
+* Add a way of allowing network clients to pass data to Arduino devices
